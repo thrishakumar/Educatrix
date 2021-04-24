@@ -1,0 +1,44 @@
+.content {
+  height: 3000px;
+  color: black;
+}
+
+.about-container {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 #3eadcf, 0 6px 20px 0 #3eadcf;
+  padding: 20px;
+  margin: 50px;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: white;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.components {
+  margin:3em;
+  margin-top: 30%;
+}
+ul {
+  
+        display: inline-block;
+        text-align:left;
+}
+.bg
+{
+ background-image: url("dist.jpg");
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2
+{
+ background-image: url("dist2.jpg");
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

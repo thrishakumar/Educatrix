@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: white;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.bg 
+{
+background-image: url("home1.jpg");
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2 {
+ background-image: url("home2.jpg");
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg3 {
+ background-image: url("home3.jpg");
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.components {
+  margin:3em;
+  margin-top: 30%;
+}
+
+
+.content {
+  height: 3000px;
+  color:black;
+}
+
+.about-container {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 #3eadcf, 0 6px 20px 0 #3eadcf;
+  padding: 20px;
+  margin: 50px;
+}
+
+.gridcontainer{
+  display: grid;
+  grid-template-columns:  repeat(6, 1fr);
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 #3eadcf, 0 6px 20px 0 #3eadcf;
+  display: grid;
+  grid-template-row:  repeat(2, 1fr);
+  padding: 5px;
+  margin: 10px;
+}
+
